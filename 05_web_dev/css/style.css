@@ -1,0 +1,44 @@
+p {
+    /* 이게 주석입니다. */
+    color: blueviolet;
+}
+.disabled-link {
+    color: gray;
+}
+
+#subscribe {
+    color: red;
+}
+
+input[type="email"]{
+    border: 2px solid tomato;
+}
+
+a:hover, a:active, a:link, a:visited{
+    color:mediumvioletred;
+}
+
+body{
+    font-family: 'Gowun Batang', serif;
+    margin: 0;
+}
+
+nav>ul{
+    background-color:lavender;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+
+h1{
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+}
